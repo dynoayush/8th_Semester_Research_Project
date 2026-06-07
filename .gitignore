@@ -1,0 +1,34 @@
+# ── Secrets ──────────────────────────────────────────────────────────
+.env
+
+# ── All CSV and PKL files ────────────────────────────────────────────
+*.csv
+*.pkl
+
+# ── FAISS vector-store index (~43 MB total, regenerable) ────────────
+medquad_index/
+
+# ── MedQuAD dataset (external dataset, link in README instead) ──────
+MedQuAD_RAG_Dataset/
+
+# ── Python cache & bytecode ─────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ── Jupyter Notebook checkpoints ────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── Virtual environments ────────────────────────────────────────────
+venv/
+env/
+.venv/
+
+# ── OS junk files ───────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE settings ────────────────────────────────────────────────────
+.vscode/
+.idea/

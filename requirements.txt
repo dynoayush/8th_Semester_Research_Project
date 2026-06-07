@@ -1,0 +1,38 @@
+# ── Core LangChain ────────────────────────────────────────────────────────────
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+langchain-huggingface
+langchain-groq
+
+# ── Embeddings & Vector Store ─────────────────────────────────────────────────
+sentence-transformers
+faiss-cpu
+
+# ── LLM (Ollama runs separately, this is the Python client) ──────────────────
+ollama
+
+# ── Data Processing ───────────────────────────────────────────────────────────
+pandas
+numpy
+tqdm
+
+# ── UI ────────────────────────────────────────────────────────────────────────
+streamlit
+
+# ── Backend API ───────────────────────────────────────────────────────────────
+fastapi
+uvicorn
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+python-dotenv
+
+# ── Machine Learning (Model Comparison) ───────────────────────────────────────
+scikit-learn
+imbalanced-learn
+xgboost
+jupyter
+matplotlib
+seaborn
+
