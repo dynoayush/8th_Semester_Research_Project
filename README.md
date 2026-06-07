@@ -16,7 +16,7 @@ An AI-powered Disease Prediction & Medical RAG Chatbot using **XGBoost**, **FAIS
 
 ```
 End_Sem_Model/
-├── app.py                      # Main Streamlit application (3 tabs)
+├── app.py                      # Main Streamlit application 
 ├── setup_models.py             # Trains XGBoost model & saves .pkl files
 ├── evaluate_rag.py             # RAG evaluation script (Faithfulness + Relevance scoring)
 ├── code.ipynb                  # Notebook: builds FAISS index from MedQuAD dataset
