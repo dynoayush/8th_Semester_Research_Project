@@ -22,7 +22,7 @@ End_Sem_Model/
 ├── code.ipynb                  # Notebook: builds FAISS index from MedQuAD dataset
 ├── medicine.ipynb              # Notebook: medicine recommendation model training
 ├── requirements.txt            # Python dependencies
-├── .env                        # API keys (YOU must create this - see below)
+├── .env                        # API keys (You must create this - see below)
 ├── Data_Required (SympScan)/   # CSV datasets (You must have this folder)
 │   ├── Diseases_and_Symptoms_dataset.csv
 │   ├── description.csv
@@ -131,7 +131,7 @@ This will generate:
 - `label_encoder.pkl` — Label encoder for disease names
 - `symptoms_list.pkl` — List of symptom features
 
-### Step 8: Run the Application 🎉
+### Step 8: Run the Application 
 
 ```bash
 streamlit run app.py
